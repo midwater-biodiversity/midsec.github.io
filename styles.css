@@ -10,8 +10,8 @@ background-color: #2c3a4e;
   display: flex;
 }
 
-.container.space-around {
-  justify-content: space-around;
+.container.space-between {
+  justify-content: space-between;
 }
 
 body {
