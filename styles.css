@@ -16,12 +16,13 @@ h1 {
   color: white; 
   font-family: Verdana, Tahoma, sans-serif; 
   font-size: 60px;
+  font-weight: bold;
 }
 
 h2 {
   color: white; 
   font-family: Verdana, Tahoma, sans-serif;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 h3 {
