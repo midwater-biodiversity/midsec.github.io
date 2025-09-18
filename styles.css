@@ -7,9 +7,8 @@ background-color: #2c3a4e;
 }
 
 body {
-/*background-image: linear-gradient(to bottom, #7da8f7, #001d23, 80%);*/
-  background: #7DA8F7;
-background: linear-gradient(180deg,rgba(125, 168, 247, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background: #88adf1;
+background: linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
   color: white;
 }
 
