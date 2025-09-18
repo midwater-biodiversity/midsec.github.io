@@ -1,7 +1,5 @@
 header {
   background-color: #2c3a4e;
-  display: flex;
-  flex-direction: row;
 }
 
 nav {
@@ -21,8 +19,6 @@ body {
 background: url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
   background-repeat: repeat, no-repeat;
   color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
