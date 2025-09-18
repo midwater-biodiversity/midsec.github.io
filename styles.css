@@ -25,9 +25,7 @@ background: url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1)
 
 h1 {
   color: white; 
-  font-family: Verdana, Tahoma, sans-serif; 
   font-size: 60px;
-  font-weight: bold;
 }
 
 h2 {
