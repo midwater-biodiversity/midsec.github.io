@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Bakbak One");
+
 header {
   background-color: #3C597E;
 }
@@ -25,7 +27,7 @@ h2 {
 
 h3 {
   font-size: 40px;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: 'Bakbak One', Verdana, sans-serif;
 }
 
 p {
