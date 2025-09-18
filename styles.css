@@ -10,6 +10,7 @@ body {
   background: #88adf1;
 background: linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
   background: url('Particles.png') rgba(0, 0, 0, 0);
+  mix-blend-mode: multiply;
   color: white;
 }
 
