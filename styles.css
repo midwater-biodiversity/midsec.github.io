@@ -8,8 +8,8 @@ background-color: #2c3a4e;
 
 body {
   background: #88adf1;
-background: linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%), url('Particles.png');
-  background-repeat: no-repeat, repeat;
+background: url('Particles.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background-repeat: repeat, no-repeat;
   color: white;
 }
 
