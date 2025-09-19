@@ -24,6 +24,7 @@ body {
   background: #88adf1;
 background: url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
   background-repeat: repeat, no-repeat;
+  background-attachment: fixed, fixed;
   color: white;
   margin: 0;
   padding: 0;
