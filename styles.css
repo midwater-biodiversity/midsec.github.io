@@ -16,6 +16,10 @@ background-color: #2c3a4e;
   justify-content: space-between;
 }
 
+.container.space-evenly {
+justify-content: space-evenly;
+}
+
 .container.horizontal {
  flex-direction: row;
 }
