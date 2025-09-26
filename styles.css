@@ -29,13 +29,13 @@ justify-content: space-evenly;
 
 body {
   background: #88adf1;
-  background:            url('amphipod.png'),  url('dragonfish.png'),  url('Squid.png'),  url('CombJelly.png'), url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
-  background-repeat:     no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat,                no-repeat;
-  background-attachment: scroll,               scroll,                 scroll,            scroll,               scroll,                scroll;
-  background-blend-mode: normal,               normal,                 normal,            normal,               normal,                normal;
-  background-position:   80% 20%,              80% 80%,                0% 90%,            10% 20%,              center,                center;
-  background-size:       150px 100px,          400px 200px,            300px 200px,       200px 300px,          auto,                  auto; 
-  transform:             initial,              initial,                initial,           rotate(45deg),        initial,               initial;
+  background:            url('clione.png'),    url('combjelly2.png'),url('Jelly2.png'),    url('Jelly3.png'),    url('siphonophore.png'),  url('squid2.png'),    url('amphipod.png'),  url('dragonfish.png'),  url('Squid.png'),  url('CombJelly.png'), url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background-repeat:     no-repeat,            no-repeat,            no-repeat,            no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat,                no-repeat;
+  background-attachment: scroll,               scroll,               scroll,               scroll,               scroll,                   scroll,               scroll,               scroll,                 scroll,            scroll,               scroll,                scroll;
+  background-blend-mode: normal,               normal,               normal,               normal,               normal,                   normal,               normal,               normal,                 normal,            normal,               normal,                normal;
+  background-position:   20% 20%,              70% 60%,              30% 70%,              70% 70%,              10% 50%,                  80% 60%,              80% 20%,              80% 80%,                0% 90%,            10% 20%,              center,                center;
+  background-size:       100px 150px,          100px 100px,          100px 150px,          100px 100px,          100px 250px,              100px 350px,          150px 100px,          400px 200px,            300px 200px,       200px 300px,          auto,                  auto; 
+  transform:             rotate(-45deg),       initial,              initial,              initial,              initial,                  initial,              initial,              initial,                initial,           rotate(45deg),        initial,               initial;
   color: white;
   margin: 0;
   padding: 0;
