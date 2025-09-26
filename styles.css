@@ -33,8 +33,8 @@ body {
   background-repeat:     no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat,                no-repeat;
   background-attachment: scroll,               scroll,                 scroll,            scroll,               scroll,                scroll;
   background-blend-mode: normal,               normal,                 normal,            normal,               normal,                normal;
-  background-position:   800px 250px,          60% 80%,                0% 90%,            0px 300px,            center,                center;
-  background-size:       150px 100px,          200px 100px,            150px 100px,       100px 150px,          auto,                  auto; 
+  background-position:   80% 20%,              80% 80%,                0% 90%,            10% 20%,              center,                center;
+  background-size:       150px 100px,          400px 200px,            300px 200px,       200px 300px,          auto,                  auto; 
   transform:             initial,              initial,                initial,           rotate(45deg),        initial,               initial;
   color: white;
   margin: 0;
