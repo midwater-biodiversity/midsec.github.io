@@ -33,7 +33,7 @@ background: url('CombJelly.png'), url('Particles2.png'), linear-gradient(180deg,
   background-repeat: no-repeat, repeat, no-repeat;
   background-attachment: scroll, scroll, scroll;
   background-blend-mode: multiply, normal, normal;
-  background-position: 0px 50px, center, center;
+  background-position: 0px 300px, center, center;
   background-size: 200px 100px, auto, auto; 
   color: white;
   margin: 0;
