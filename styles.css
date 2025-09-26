@@ -29,12 +29,13 @@ justify-content: space-evenly;
 
 body {
   background: #88adf1;
-background: url('CombJelly.png'), url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
-  background-repeat: no-repeat, repeat, no-repeat;
-  background-attachment: scroll, scroll, scroll;
-  background-blend-mode: multiply, normal, normal;
-  background-position: 0px 300px, center, center;
-  background-size: 200px 100px, auto, auto; 
+  background:            url('amphipod.png'),  url('dragonfish.png'),  url('Squid.png'),  url('CombJelly.png'), url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background-repeat:     no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat,                no-repeat;
+  background-attachment: scroll,               scroll,                 scroll,            scroll,               scroll,                scroll;
+  background-blend-mode: normal,               normal,                 normal,            normal,               normal,                normal;
+  background-position:   800px 250px,          60% 80%,                0% 90%,            0px 300px,            center,                center;
+  background-size:       150px 100px,          200px 100px,            150px 100px,       100px 150px,          auto,                  auto; 
+  transform:             initial,              initial,                initial,           rotate(45deg),        initial,               initial;
   color: white;
   margin: 0;
   padding: 0;
