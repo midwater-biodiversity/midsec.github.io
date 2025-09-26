@@ -33,7 +33,7 @@ body {
   background-repeat:     no-repeat,            no-repeat,            no-repeat,            no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat,                no-repeat;
   background-attachment: scroll,               scroll,               scroll,               scroll,               scroll,                   scroll,               scroll,               scroll,                 scroll,            scroll,               scroll,                scroll;
   background-blend-mode: normal,               normal,               normal,               normal,               normal,                   normal,               normal,               normal,                 normal,            normal,               normal,                normal;
-  background-position:   1600px 800px,          1400px 1500px,        250px 2300px,         100px 2500px,         200px 1600px,             1500px 1800px,        1500px 400px,         1400px 2800px,          200px 2900px,      500px 400px,          center,                center;
+  background-position:   1600px 800px,          1400px 1500px,        250px 2300px,         100px 2500px,         200px 1600px,             1500px 1800px,        1500px 400px,         1400px 2800px,          200px 2900px,      250px 700px,          center,                center;
   background-size:       150px 150px,          100px 100px,          100px 150px,          200px 200px,          200px 500px,              200px 700px,          150px 100px,          400px 200px,            300px 200px,       250px 250px,          auto,                  auto; 
 color: white;
   margin: 0;
