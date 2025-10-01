@@ -41,6 +41,20 @@ color: white;
   padding: 0;
 }
 
+body::before{
+  background: #88adf1;
+  background:            linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background-repeat:      no-repeat;
+  background-attachment:  scroll;
+  background-blend-mode:  normal;
+  background-position:      center;
+  background-size:        auto; 
+color: white;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
 
 h1 {
   color: white; 
