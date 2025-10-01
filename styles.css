@@ -27,29 +27,20 @@ justify-content: space-evenly;
  flex-direction: row;
 }
 
-bgfx {
+
+body {
   background: #88adf1;
-  background:            url('Clione.png'),    url('combjelly2.png'),url('Jelly2.png'),    url('jelly3.png'),    url('siphonophore.png'),  url('squid2.png'),    url('Copepod.png'),  url('dragonfish.png'),  url('Squid.png'),  url('CombJelly.png'), url('Particles2.png');
-  background-repeat:     no-repeat,            no-repeat,            no-repeat,            no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat;
-  background-attachment: scroll,               scroll,               scroll,               scroll,               scroll,                   scroll,               scroll,               scroll,                 scroll,            scroll,               scroll;
-  background-blend-mode: normal,               normal,               normal,               normal,               normal,                   normal,               normal,               normal,                 normal,            normal,               normal;
-  background-position:   1600px 1000px,          1400px 1500px,        300px 2200px,         100px 2500px,         200px 1400px,             1500px 1800px,        1500px 400px,         1400px 2800px,          200px 2900px,      250px 700px,          center;
-  background-size:       150px 150px,          100px 100px,          100px 150px,          200px 200px,          200px 500px,              200px 700px,          150px 150px,          400px 200px,            300px 200px,       150px 200px,          auto; 
+  background:            url('Clione.png'),    url('combjelly2.png'),url('Jelly2.png'),    url('jelly3.png'),    url('siphonophore.png'),  url('squid2.png'),    url('Copepod.png'),  url('dragonfish.png'),  url('Squid.png'),  url('CombJelly.png'), url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background-repeat:     no-repeat,            no-repeat,            no-repeat,            no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,              no-repeat,         no-repeat,            repeat,                no-repeat;
+  background-attachment: scroll,               scroll,               scroll,               scroll,               scroll,                   scroll,               scroll,               scroll,                 scroll,            scroll,               scroll,                scroll;
+  background-blend-mode: normal,               normal,               normal,               normal,               normal,                   normal,               normal,               normal,                 normal,            normal,               normal,                normal;
+  background-position:   1600px 1000px,          1400px 1500px,        300px 2200px,         100px 2500px,         200px 1400px,             1500px 1800px,        1500px 400px,         1400px 2800px,          200px 2900px,      250px 700px,          center,                center;
+  background-size:       150px 150px,          100px 100px,          100px 150px,          200px 200px,          200px 500px,              200px 700px,          150px 150px,          400px 200px,            300px 200px,       150px 200px,          auto,                  auto; 
+color: white;
   margin: 0;
   padding: 0;
 }
 
-gradientbg {
-  background: #88adf1;
-  background:            linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
-  background-repeat:     no-repeat;
-  background-attachment: scroll;
-  background-blend-mode: normal;
-  background-position:  center;
-  background-size:     cover; 
-  margin: 0;
-  padding: 0;
-}
 
 h1 {
   color: white; 
