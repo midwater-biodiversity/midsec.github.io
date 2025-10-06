@@ -6,6 +6,10 @@ header {
 
 a {text-decoration: none; }
 
+      .background {
+        transform: translateZ(-10px) scale(2);
+      }
+
 .background{
           position: absolute;
         z-index: -1;
