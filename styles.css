@@ -81,4 +81,9 @@ footer {
   display: flex;
   flex-direction: row;
 }
-  
+
+.photobanner {
+  height: 200px;
+  width: 3550px;
+  margin-bottom: 80px;
+}
