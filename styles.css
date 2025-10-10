@@ -1,0 +1,147 @@
+header {
+  background-color: #2c3a4e;
+  margin: 0;
+  padding: 0;
+}
+
+a {text-decoration: none; }
+  
+
+nav {
+background-color: #2c3a4e;
+}
+
+.container {
+  display: flex;
+}
+
+.container.space-between {
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.container.space-evenly {
+justify-content: space-evenly;
+}
+
+.container.horizontal {
+ flex-direction: row;
+}
+
+
+body {
+  background: #88adf1;
+  background:            url('img/Clione.png'),url('img/combjelly2.png'),url('img/Jelly2.png'),url('img/jelly3.png'),url('img/siphonophore.png'),url('img/squid2.png'),url('img/Copepod.png'),url('img/dragonfish.png'),url('img/Squid.png'),url('img/CombJelly.png'),url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background-repeat:     no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,                  no-repeat,            no-repeat,             no-repeat,                no-repeat,           no-repeat,               repeat,                no-repeat;
+  background-attachment: scroll,               scroll,                   scroll,               scroll,               scroll,                     scroll,               scroll,                scroll,                   scroll,              scroll,                  scroll,                scroll;
+  background-blend-mode: normal,               normal,                   normal,               normal,               normal,                     normal,               multiply,              normal,                   normal,              normal,                  normal,                normal;
+  background-position:   1600px 1000px,        1400px 1500px,            300px 2200px,         100px 2500px,         200px 1400px,               1500px 1800px,        1500px 400px,          1400px 2800px,            200px 2900px,        250px 700px,             center,                center;
+  background-size:       150px 165px,          100px 91px,               100px 111px,          200px 208px,          200px 384px,                200px 601px,          150px 137px,           400px 177px,              300px 220px,         150px 189px,             auto,                  auto; 
+color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1 {
+  color: white; 
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: white; 
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #ef9f32; 
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+h4 {
+  color: white; 
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+footer {
+  background-color: #2c3a4e;
+  display: flex;
+  flex-direction: row;
+}
+
+.photobanner {
+  height: 200px;
+  width: 3550px;
+}
+
+.first {
+    -webkit-animation: bannermove 60s linear infinite;
+       -moz-animation: bannermove 60s linear infinite;
+        -ms-animation: bannermove 60s linear infinite;
+         -o-animation: bannermove 60s linear infinite;
+            animation: bannermove 60s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
