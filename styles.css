@@ -27,15 +27,6 @@ justify-content: space-evenly;
 .container.horizontal {
  flex-direction: row;
 
-  
-}
-img {
-  max-width: 100%;
-  height: auto;  
-  display: block;  
-}
-
-
 body {
   background: #88adf1;
   background:            url('img/Clione.png'),url('img/combjelly2.png'),url('img/Jelly2.png'),url('img/jelly3.png'),url('img/siphonophore.png'),url('img/squid2.png'),url('img/Copepod.png'),url('img/dragonfish.png'),url('img/Squid.png'),url('img/CombJelly.png'),url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
