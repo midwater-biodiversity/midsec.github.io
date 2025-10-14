@@ -26,6 +26,7 @@ justify-content: space-evenly;
 
 .container.horizontal {
  flex-direction: row;
+}
 
 body {
   background: #88adf1;
