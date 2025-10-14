@@ -26,7 +26,15 @@ justify-content: space-evenly;
 
 .container.horizontal {
  flex-direction: row;
+
+  
 }
+img {
+  max-width: 100%;
+  height: auto;  
+  display: block;  
+}
+
 
 body {
   background: #88adf1;
