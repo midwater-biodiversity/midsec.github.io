@@ -35,8 +35,8 @@ img {
 }
 
 .column {
-  float: none;
-  width: 30%;
+  float: left;
+  width: 33.33%;
   padding: 5px;
 }
 
