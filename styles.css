@@ -9,6 +9,7 @@ a {text-decoration: none; }
 
 nav {
 background-color: #2c3a4e;
+font-size: clamp(15px, 4vw, 24px); 
 }
 
 .container {
@@ -28,14 +29,13 @@ justify-content: space-evenly;
  flex-direction: row;
 }
 
-
 body {
   background: #88adf1;
-  background:            url('img/Clione.png'),url('img/combjelly2.png'),url('img/Jelly2.png'),url('img/jelly3.png'),url('img/siphonophore.png'),url('img/squid2.png'),url('img/Copepod.png'),url('img/dragonfish.png'),url('img/Squid.png'),url('img/CombJelly.png'),url('Particles2.png'), linear-gradient(180deg,rgba(136, 173, 241, 1) 0%, rgba(0, 29, 35, 1) 84%);
+  background:            url('img/Clione.png'),url('img/combjelly2.png'),url('img/Jelly2.png'),url('img/jelly3.png'),url('img/siphonophore.png'),url('img/squid2.png'),url('img/Copepod.png'),url('img/dragonfish.png'),url('img/Squid.png'),url('img/CombJelly.png'),url('Particles2.png'), linear-gradient(180deg,rgba(96, 113, 144, 1) 0%, rgba(0, 29, 35, 1) 84%);
   background-repeat:     no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,                  no-repeat,            no-repeat,             no-repeat,                no-repeat,           no-repeat,               repeat,                no-repeat;
   background-attachment: scroll,               scroll,                   scroll,               scroll,               scroll,                     scroll,               scroll,                scroll,                   scroll,              scroll,                  scroll,                scroll;
   background-blend-mode: normal,               normal,                   normal,               normal,               normal,                     normal,               multiply,              normal,                   normal,              normal,                  normal,                normal;
-  background-position:   1600px 1000px,        1400px 1500px,            300px 2200px,         100px 2500px,         200px 1400px,               1500px 1800px,        1500px 400px,          1400px 2800px,            200px 2900px,        250px 700px,             center,                center;
+  background-position:   85% 1000px,           80% 1500px,               15% 2200px,           5% 2500px,            10% 1400px,                 85% 1800px,           85% 400px,             90% 2800px,               10% 2900px,          12% 700px,               center,                center;
   background-size:       150px 165px,          100px 91px,               100px 111px,          200px 208px,          200px 384px,                200px 601px,          150px 137px,           400px 177px,              300px 220px,         150px 189px,             auto,                  auto; 
 color: white;
   margin: 0;
@@ -46,7 +46,7 @@ color: white;
 
 h1 {
   color: white; 
-  font-size: 80px;
+  font-size:clamp(10px,15vw,80px);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -54,7 +54,7 @@ h1 {
 h2 {
   color: white; 
   font-family: Verdana, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size:clamp(10px,5vw,20px);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -74,6 +74,14 @@ h4 {
 }
 
 p {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+ul {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+li {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
