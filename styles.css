@@ -77,6 +77,14 @@ p {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+ul {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+li {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
 footer {
   background-color: #2c3a4e;
   display: flex;
