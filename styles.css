@@ -31,7 +31,7 @@ justify-content: space-evenly;
 
 body {
   background: #88adf1;
-  background:            url('img/Clione.png'),url('img/combjelly2.png'),url('img/Jelly2.png'),url('img/jelly3.png'),url('img/siphonophore.png'),url('img/squid2.png'),url('img/Copepod.png'),url('img/dragonfish.png'),url('img/Squid.png'),url('img/CombJelly.png'),url('Particles2.png'), linear-gradient(180deg,rgba(67, 87, 115, 1) 0%, rgba(18, 24, 32, 1) 84%);
+  background:            url('img/Clione.png'),url('img/combjelly2.png'),url('img/Jelly2.png'),url('img/jelly3.png'),url('img/siphonophore.png'),url('img/squid2.png'),url('img/Copepod.png'),url('img/dragonfish.png'),url('img/Squid.png'),url('img/CombJelly.png'),url('Particles2.png'), linear-gradient(180deg,rgba(98, 122, 156, 1) 0%, rgba(18, 24, 32, 1) 84%);
   background-repeat:     no-repeat,            no-repeat,                no-repeat,            no-repeat,            no-repeat,                  no-repeat,            no-repeat,             no-repeat,                no-repeat,           no-repeat,               repeat,                no-repeat;
   background-attachment: scroll,               scroll,                   scroll,               scroll,               scroll,                     scroll,               scroll,                scroll,                   scroll,              scroll,                  scroll,                scroll;
   background-blend-mode: normal,               normal,                   normal,               normal,               normal,                     normal,               multiply,              normal,                   normal,              normal,                  normal,                normal;
