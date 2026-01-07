@@ -91,6 +91,27 @@ footer {
   flex-direction: row;
 }
 
+.grid-container {
+  display: grid;
+  /* Defines 3 columns, each taking up an equal fraction of the available space */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Alternatively, use repeat() for conciseness: grid-template-columns: repeat(3, 1fr); */
+  
+  /* Adds space between grid items */
+  gap: 10px; /* Shorthand for grid-row-gap and grid-column-gap */
+  
+  /* Optional: set a default height for rows */
+  grid-auto-rows: 100px;
+}
+
+.grid-item {
+  /* Add styling to make the items visible */
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
 .photobanner {
   height: 200px;
   width: 3550px;
