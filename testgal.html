@@ -42,14 +42,19 @@ function loadImages() {
             filePaths.map(f => { // Create and put images to the DOM
                 const fc = document.createElement('figcaption');
                 fc.textContent = f.replace('img/','').replace('.jpg','').replace('.png','');
+
+                const a = document.createElement('a');
+                a.href=f;
                 
                 const img = document.createElement('IMG');
                 img.src = f;
                 img.style="width:200px;height:100px;"
+
+                a.appendChild(img);
                 
                 const fig = document.createElement('figure');
                 fig.style="width:200px; margin:2px;";
-                fig.appendChild(img);
+                fig.appendChild(a);
                 fig.appendChild(fc);
 
                 imagesContainer.appendChild(fig);
