@@ -36,8 +36,7 @@ function loadImages() {
             filePaths.map(f => { // Create and put images to the DOM
                 const img = document.createElement('IMG');
                 img.src = f;
-                img.width = 200px;
-                img.height = 100px;
+                img.style="width:200px;height:100px;"
                 imagesContainer.appendChild(img);
             });
         }
