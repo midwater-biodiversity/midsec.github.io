@@ -3,7 +3,7 @@
 // Source - https://stackoverflow.com/a
 // Posted by Eddy
 // Retrieved 2026-01-07, License - CC BY-SA 4.0
-
+<body>
 <div class="images" id="images"></div>
 
 <script>
@@ -48,5 +48,5 @@ function loadImages() {
 
 loadImages();
 </script>
-
+</body>
 </html>
