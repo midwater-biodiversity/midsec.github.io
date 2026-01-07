@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<div class="images" id="images"></div>
+<div class="grid-container" id="images"></div>
 
 <script>
 function loadImages() {
@@ -34,15 +34,22 @@ function loadImages() {
             const imagesContainer = document.getElementById('images');
       
             filePaths.map(f => { // Create and put images to the DOM
-                const fig = document.createElement('figure');
+                const gi = document.createElement('div');
+                gi.class="grid-item";
+                
                 const fc = document.createElement('figcaption');
+                fc.textContent = f.replace('img/','').replace('.jpg','').replace('.png','');
+                
                 const img = document.createElement('IMG');
                 img.src = f;
                 img.style="width:200px;height:100px;"
-                fc.textContent = f;
+                
+                const fig = document.createElement('figure');
                 fig.appendChild(img);
                 fig.appendChild(fc);
-                imagesContainer.appendChild(fig);
+                gi.appendChild(fig);
+                
+                imagesContainer.appendChild(gi);
             });
         }
     };
