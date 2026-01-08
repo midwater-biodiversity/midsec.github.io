@@ -41,7 +41,7 @@ function loadImages() {
       
             filePaths.map(f => { // Create and put images to the DOM
                 const fc = document.createElement('figcaption');
-                fc.textContent = f.replace('thumbnails/200/','').replace('.jpg','').replace('.png','');
+                fc.textContent = f.replace('thumbnails/200/','').replace('.jpg','').replace('.png','').replace('.jpeg','').replace('.JPG','');
 
                 const a = document.createElement('a');
                 a.href=f.replace('thumbnails/200/','img/');
