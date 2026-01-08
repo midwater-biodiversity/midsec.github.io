@@ -75,4 +75,3 @@ jelly3.png
 morning tea.png
 siphonophore.png
 squid2.png
-testimg.png
