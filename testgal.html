@@ -29,7 +29,7 @@ function loadImages() {
                             currentFolder = f.replace('.', '').replace(':', '/');
                         }
                         else if (f[f.length - 1] !== '/') {
-                            filePath = `img/${f}`;
+                            filePath = `thumbnails/200/${f}`;
                         }
                     }
           
@@ -41,10 +41,10 @@ function loadImages() {
       
             filePaths.map(f => { // Create and put images to the DOM
                 const fc = document.createElement('figcaption');
-                fc.textContent = f.replace('img/','').replace('.jpg','').replace('.png','');
+                fc.textContent = f.replace('thumbnails/200/','').replace('.jpg','').replace('.png','');
 
                 const a = document.createElement('a');
-                a.href=f;
+                a.href=f.replace('thumbnails/200/','img/');
                 a.target="_blank";
                 
                 const img = document.createElement('IMG');
