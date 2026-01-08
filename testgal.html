@@ -3,12 +3,13 @@
 <head>
     <style>
         .container {
-  display: flex;
-flex-wrap: wrap;
-}
+              display: flex;
+              flex-wrap: wrap;
+                }
     </style>
 </head>
 <body>
+//set up the container to hold the images, class is in the style tag above
 <div class="container" id="images"></div>
 
 <script>
@@ -20,6 +21,7 @@ function loadImages() {
             const fileList = this.responseText.split('\n'); // Split by lines
             let currentFolder = '';
 
+            //iterate through the images.txt folder in the base directory
             const filePaths = fileList
                 .map(f => { // Build correct path for each file
                     let filePath = '';
@@ -29,6 +31,7 @@ function loadImages() {
                             currentFolder = f.replace('.', '').replace(':', '/');
                         }
                         else if (f[f.length - 1] !== '/') {
+                            //point to the thumbnails folder. {f} is the filename
                             filePath = `thumbnails/200/${f}`;
                         }
                     }
@@ -36,28 +39,36 @@ function loadImages() {
                     return filePath;
                 })
                 .filter(f => f); // Remove empty lines
-      
+
+            //grab the container we set up at the beginning
             const imagesContainer = document.getElementById('images');
       
-            filePaths.map(f => { // Create and put images to the DOM
+            filePaths.map(f => { // Create content for each image and add them to the page
+
+                //create a caption, set the text to be the file name but remove the file path and extension
                 const fc = document.createElement('figcaption');
                 fc.textContent = f.replace('thumbnails/200/','').replace('.jpg','').replace('.png','').replace('.jpeg','').replace('.JPG','');
 
+                //create an anchor element so the image can serve as a link. Link to the full size image in the img folder by replacing the file path.
                 const a = document.createElement('a');
                 a.href=f.replace('thumbnails/200/','img/');
-                a.target="_blank";
-                
+                a.target="_blank"; //opens link in new window
+
+                //create the image element and make the thumbnail the source. Set width and height just in case there is variation.
                 const img = document.createElement('IMG');
                 img.src = f;
                 img.style="width:200px;height:100px;"
 
+                //make the thumbnail image a child of the anchor element
                 a.appendChild(img);
-                
+
+                //create a figure element (so that it can have a caption) and add the anchor element and caption as children.
                 const fig = document.createElement('figure');
                 fig.style="width:200px; margin:2px;";
                 fig.appendChild(a);
                 fig.appendChild(fc);
 
+                //add the figure element to the container we grabbed
                 imagesContainer.appendChild(fig);
             });
         }
