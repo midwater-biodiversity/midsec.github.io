@@ -45,9 +45,12 @@ Klostergarden.png
 Kubb on grass.jpg
 Lake.png
 Logo.png
+Logo_MBARI.png
+Logo_SOI.png
 Logo_UWA.png
 Logo__conference_large.png
 Logo_conference.png
+Logo_conference_bright.png
 Logo_dark.png
 Logo_large.png
 Logo_light.png
