@@ -19,6 +19,14 @@
       }
     </style>
   </head>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+        $('#footer-placeholder').load('footer.html');
+    });
+</script>
+
   
   <body style="padding-left:0px;padding-right:0px;">
     <header style="position:relative; left: 0%; width: 100%; margin-left: 0px;margin-right: 0px;margin-top: 0px;">
@@ -111,8 +119,8 @@
     
     </div>
     <br>
-
-  <footer style="position:relative; left: 0%; width: 100%;">
+<div id="footer-placeholder"></div>
+  <!--<footer style="position:relative; left: 0%; width: 100%;">
     <div Style="position:relative; width: 90%; margin-left:auto; margin-right:auto">
       <br>
       <div class="container space-evenly">
@@ -146,5 +154,5 @@
       </div>
       <br>
     </div>
-  </footer>
+  </footer>-->
 </body>
