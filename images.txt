@@ -71,6 +71,7 @@ Siphonophore_EyeRIS.png
 Squid.png
 Vapensmedens hus exteriör.jpeg
 Vapensmedens room.jpeg
+WebsiteSchedule.png
 amphipod.png
 combjelly2.png
 dragonfish.png
