@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bioblitz Accommodation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Bakbak One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      h1 {
+        font-family: 'Bakbak One';
+      }
+      h3 {
+        font-family: 'Bakbak One';
+      }
+      nav {
+        font-family: 'Lexend Deca';
+      }
+    </style>
+  </head>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+        $('#footer-placeholder').load('footer.html');
+    });
+</script>
+  
+  <body style="padding-left:0px;padding-right:0px;">
+    <header style="position:relative; left: 0%; width: 100%; margin-left: 0px;margin-right: 0px;margin-top: 0px;">
+      <div Style="position:relative; width: 90%; max-width: 800px; margin-left:auto; margin-right:auto; overflow-x:auto;" class="container horizontal">
+      <div>
+        <br>
+        <a href="http://midsec.info/index"><img src="img/Logo.png" style="width:20vw;height:auto;max-width:220px; max-height:220px"></a>
+      </div>
+      <div Style="margin-left:10px; margin-top:5px;">
+        <br>
+        <h1>MidSEC</h1>
+        <h2>Midwater Science and Engineering Community</h2>
+        <br>
+     <nav>
+      <div Style="color:white; position:relative; width: 100%; max-width: 800px; margin-left:auto; margin-right:auto; margin-top:10px; " class="container space-between">
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/index" Style="color:#006fbe">COMMUNITY</a>
+        <div>BIOBLITZ</div>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/conference" Style="color:#006fbe">CONFERENCE</a>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/contact" Style="color:#006fbe">CONTACT</a>
+      </div>
+      <br>
+    </nav>
+      </div>
+        </div>
+        <br>
+    </header>
+
+
+    <nav Style="background-color:#091630;">
+      <div Style="color:white; position:relative; width: 100%; font-size:clamp(10px,3vw,22px); max-width: 1000px; margin-left:auto; margin-right:auto; padding-top:10px; overflow-x:auto;" class="container space-between">
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bioblitz" Style="color:#006fbe">OVERVIEW</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_instructions" Style="color:#006fbe">INSTRUCTIONS</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_venue" Style="color:#006fbe">VENUE</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_travel" Style="color:#006fbe">TRAVEL</a> 
+        <a>ACCOMMODATION</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_program" Style="color:#006fbe">PROGRAM</a>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_register" Style="color:#006fbe">REGISTER</a>
+      </div>
+      <br>
+    </nav>
+    
+
+    <br>
+  
+    <h4 style="font-family:Bakbak One,Verdana,sans-serif; color:#ef9f32; ">  
+      <p>
+      Accommodation
+      </p>
+    </h4>
+    <p>Some accommodation is available at OIST however spots are extremely limited. Participants are advised to book hotels or AirBNBs in the area instead.</p>
+    <p>OIST has a list of partner hotels which can offer discounted rates. To receive the discounted rate, registrations need to be made through OIST. If you would like to take advantage of these, please contact the conference organizers with 
+    the dates and number of guests for each room</p>
+    <br>
+    <p>Hotels that are partnered with OIST are as follows:</p>
+        <style>
+      table, th, td {
+      border: 1.5px solid White;
+      border-collapse: collapse;
+      padding: 10px;
+      margin-left:auto;
+      margin-right: auto;
+}
+</style>
+<div style="overflow-x:auto;">
+    <table>
+    <tr>
+      <th>Hotel</th>       
+      <th>Distance to OIST</th>
+      <th>Discounted Price/Person(JPY)</th>
+    </tr>
+             <tr>
+        <td>Rizzan Sea-Park Hotel Tancha Bay</td>
+        <td>1.8km</td>
+        <td>One person: 20,090-26,600<br>
+            Two people: 11,550-14,300<br>
+            Three people: 9,900-12,650</td>
+      </tr>
+      <tr>
+        <td>The Moon Beach Museum Resort</td>
+        <td>4.2km</td>
+        <td>One person: 17,050<br>
+            Two people: 11,000<br>
+            Three people: 9,900</td>
+      </tr>
+            <tr>
+        <td>Kafuu Resort Fuchaku</td>
+        <td>3.1km</td>
+        <td>One person: 18,500-28,500<br>
+            Two people: 23,000-36,500<br>
+            </td>
+      </tr>
+                  <tr>
+        <td>Hyatt Regency Seragaki</td>
+        <td>7.2km</td>
+        <td>One person: 22,000<br>
+            Two people: 26,000<br>
+            </td>
+      </tr>
+                        <tr>
+        <td>Peridot Smart Hotel</td>
+        <td>At OIST</td>
+        <td>One person: 17,000<br>
+            Two people: 21,000<br>
+            Three people: 31,500<br>
+            </td>
+      </tr>
+      <tr>
+        <td>Hotel Monterey Okinawa</td>
+        <td>3.3km</td>
+        <td>One person: 22,000-36,000<br>
+            Two people: 13,000-20,000<br>
+            Three people: 11,000-17,000<br>
+            </td>
+      </tr>
+
+       </table></div>
+  </div>
+    <br>
+<div>
+  <div id="footer-placeholder"></div>
+  </div>
+</body>
+</html>
