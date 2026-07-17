@@ -52,17 +52,22 @@
         </div>
         <br>
     </header>
-    
 
- <!--   <nav Style="background-color:#243040;">
-      <div Style="color:white; font-size: 18px; position:relative; width: 90%; max-width: 800px; margin-left:auto; margin-right:auto; padding-top:10px;" class="container space-between">
-        <a href="https://midwater-biodiversity.github.io/midsec.github.io/venue" Style="color:#49a4b2">VENUE</a>
-        <a href="https://midwater-biodiversity.github.io/midsec.github.io/program" Style="color:#49a4b2">PROGRAM</a>
-        <a href="https://midwater-biodiversity.github.io/midsec.github.io/register" Style="color:#49a4b2">REGISTER</a>
+
+    <nav Style="background-color:#091630;">
+      <div Style="color:white; position:relative; width: 100%; font-size:clamp(10px,3vw,22px); max-width: 1000px; margin-left:auto; margin-right:auto; padding-top:10px; overflow-x:auto;" class="container space-between">
+        <a>OVERVIEW</a>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_instructions" Style="color:#006fbe">INSTRUCTIONS</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_venue" Style="color:#006fbe">VENUE</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_travel" Style="color:#006fbe">TRAVEL</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_accommodation" Style="color:#006fbe">ACCOMMODATION</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_program" Style="color:#006fbe">PROGRAM</a>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_register" Style="color:#006fbe">REGISTER</a>
       </div>
       <br>
     </nav>
-    -->
+    
+
     <br>
   <div Style="position:relative; max-width: 700px; width: 80%; margin-left:auto; margin-right:auto; background-color:#2c3a4e; padding-left: 2%; padding-right: 2%; padding-top: 15px; padding-bottom: 15px; overflow: hidden; perspective: 10px;">
     <div Style="width: 700px; overflow: hidden; margin-left:auto; margin-right:auto;">
