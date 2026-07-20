@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MidSEC Travel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='https://fonts.googleapis.com/css?family=Bakbak One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      h1 {
+        font-family: 'Bakbak One';
+      }
+      h3 {
+        font-family: 'Bakbak One';
+      }
+      nav {
+        font-family: 'Lexend Deca';
+      }
+    </style>
+  </head>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+        $('#footer-placeholder').load('footer.html');
+    });
+</script>
+
+  
+  <body style="padding-left:0px;padding-right:0px;">
+    <header style="position:relative; left: 0%; width: 100%; margin-left: 0px;margin-right: 0px;margin-top: 0px;">
+      <div Style="position:relative; width: 90%; max-width: 800px; margin-left:auto; margin-right:auto; overflow-x:auto;" class="container horizontal">
+      <div>
+        <br>
+        <a href="http://midsec.info/index"><img src="img/Logo.png" style="width:20vw;height:auto;max-width:220px; max-height:220px"></a>
+      </div>
+      <div Style="margin-left:10px; margin-top:5px;">
+        <br>
+        <h1>MidSEC</h1>
+        <h2>Midwater Science and Engineering Community</h2>
+        <br>
+     <nav>
+<div Style="color:white; position:relative; width: 100%; max-width: 800px; margin-left:auto; margin-right:auto; margin-top:10px; " class="container space-between">
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/index" Style="color:#006fbe">COMMUNITY</a>
+        <div>BIOBLITZ</div>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/conference" Style="color:#006fbe">CONFERENCE</a>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/contact" Style="color:#006fbe">CONTACT</a>
+      </div>
+      <br>
+    </nav>
+      </div>
+        </div>
+        <br>
+    </header>
+
+            
+    <nav Style="background-color:#091630;">
+      <div Style="color:white; position:relative; width: 100%; font-size:clamp(10px,3vw,22px); max-width: 1000px; margin-left:auto; margin-right:auto; padding-top:10px; overflow-x:auto;" class="container space-between">
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bbdraft" Style="color:#006fbe">OVERVIEW</a> 
+        <!--<a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_instructions" Style="color:#006fbe"> --><a>INSTRUCTIONS</a> 
+        <a>VENUE</a>
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_travel" Style="color:#006fbe">TRAVEL</a> 
+        <a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_accommodation" Style="color:#006fbe">ACCOMMODATION</a> 
+        <!--<a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_program" Style="color:#006fbe"> --><a>PROGRAM</a>
+        <!--<a href="https://midwater-biodiversity.github.io/midsec.github.io/bb_register" Style="color:#006fbe"> --><a>REGISTER</a>
+      </div>
+      <br>
+    </nav>
+    
+    <br>
+    
+  <div Style="position:relative; max-width: 700px; width: 80%; margin-left:auto; margin-right:auto; background-color:#2c3a4e; padding-left: 2%; padding-right: 2%; padding-top: 15px; padding-bottom: 15px">
+
+      <br>
+    </nav>
+    <br>
+    <h3>Location</h3>
+    <br>
+    <p>The bioblitz will be hosted at Okinawa Institute of Marine Sciences (OIST) Marine Science Station.</p><br>
+    <p>656-7 Seragaki-hara, Onna, Kunigami District, Okinawa 904-0404, Japan</p>
+    <img src="img/OISTLocation.png"; style="max-width:100%;max-height:auto;"><br>
+    <br>
+    <h2>Amenities</h2>
+    <p>No accommodation is available at OIST Marine Science Station. See our accommodation page for hotel options, or alternatively there are AirBnBs available in the area.</p>
+    <p>The marine science station has a small refigerator and microwave available but no fully-equipped kitchen. There are restaurants available in the area, and basic group lunches will be provided from vendors through OIST.</p>
+
+    
+    </div>
+    <br>
+<div id="footer-placeholder"></div>
+
+</body>
