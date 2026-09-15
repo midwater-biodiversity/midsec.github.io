@@ -85,4 +85,11 @@ squid2.png
 testimg.png
 
 ./img/mfmtw:
+Exterior1.jpeg
+Exterior2.jpeg
+Lab1.jpeg
+Lab2.jpeg
+Lab3.jpeg
+Lab4.jpeg
+Location.jpeg
 file
