@@ -78,7 +78,11 @@ amphipod.png
 combjelly2.png
 dragonfish.png
 jelly3.png
+mfmtw/
 morning tea.png
 siphonophore.png
 squid2.png
 testimg.png
+
+./img/mfmtw:
+file
