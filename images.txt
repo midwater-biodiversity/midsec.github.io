@@ -86,10 +86,17 @@ testimg.png
 
 ./img/mfmtw:
 Exterior1.jpeg
+Exterior1Tumb.jpg
 Exterior2.jpeg
+Exterior2Thumb.jpg
 Lab1.jpeg
+Lab1Thumb.jpg
 Lab2.jpeg
+Lab2Thumb.jpg
 Lab3.jpeg
+Lab3Thumb.jpg
 Lab4.jpeg
+Lab4Thumb.jpg
 Location.jpeg
+LocationThumb.jpg
 file
