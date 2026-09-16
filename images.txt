@@ -61,6 +61,7 @@ Map.jpg
 Mollan Room.png
 Mollan.png
 OISTLocation.png
+OtagoLogo.png
 Phronima_Big.png
 Program release.png
 Program.jpg
@@ -70,6 +71,7 @@ Samantha.png
 Screenshot 2025-10-08 135827.png
 SergestesDoubleDotD416T-008_600x309.jpg
 Siphonophore_EyeRIS.png
+SmithsonianLogo.png
 Squid.png
 Vapensmedens hus exteriör.jpeg
 Vapensmedens room.jpeg
