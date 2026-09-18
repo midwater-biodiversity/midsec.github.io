@@ -22,7 +22,11 @@ Dessert.png
 Dining room.png
 Dunedin.png
 Expression of Interest.png
+Exterior.JPG
+ExteriorThumb.jpg
 EyeRIS2.jpg
+Facilities.jpg
+FacilitiesThumb.jpg
 Flowers.png
 Foliage.png
 Gatehouse room.jpeg
@@ -76,6 +80,8 @@ Squid.png
 Vapensmedens hus exteriör.jpeg
 Vapensmedens room.jpeg
 WebsiteSchedule.png
+Wharf.JPG
+WharfThumb.jpg
 amphipod.png
 combjelly2.png
 dragonfish.png
