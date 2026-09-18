@@ -93,10 +93,14 @@ squid2.png
 testimg.png
 
 ./img/mfmtw:
+Exterior.JPG
 Exterior1.jpeg
 Exterior1Tumb.jpg
 Exterior2.jpeg
 Exterior2Thumb.jpg
+ExteriorThumb.jpg
+Facilities.jpg
+FacilitiesThumb.jpg
 Lab1.jpeg
 Lab1Thumb.jpg
 Lab2.jpeg
@@ -107,4 +111,6 @@ Lab4.jpeg
 Lab4Thumb.jpg
 Location.jpeg
 LocationThumb.jpg
+Wharf.JPG
+WharfThumb.jpg
 file
