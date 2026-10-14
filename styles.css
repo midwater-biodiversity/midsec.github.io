@@ -9,7 +9,10 @@ a {text-decoration: none; }
 a:visited {
   color: #ef9f32;
 }
-  
+
+a:link {
+  color: #ef9f32;
+}  
 
 nav {
 background-color: #2c3a4e;
