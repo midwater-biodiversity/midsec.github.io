@@ -65,6 +65,7 @@ Map.jpg
 Mollan Room.png
 Mollan.png
 OISTLocation.png
+OceanWolfLogo.png
 OtagoLogo.png
 Phronima_Big.png
 Program release.png
