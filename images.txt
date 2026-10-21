@@ -14,6 +14,10 @@ Castle room.png
 Castle.png
 Clione.png
 CombJelly.png
+Conf1.jpg
+Conf1Thumb.png
+Conf2.jpg
+Conf2Thumb.png
 Consideration.png
 Copepod.png
 Cost breakdown.png
@@ -32,6 +36,7 @@ Foliage.png
 Gatehouse room.jpeg
 Glasshouse.png
 Grindstugan.jpeg
+Group.png
 Humlehuset Room.png
 Humlehuset.png
 Invitations.png
@@ -48,6 +53,8 @@ Karl XVs room.png
 Klostergarden room.png
 Klostergarden.png
 Kubb on grass.jpg
+Kubb.jpg
+KubbThumb.png
 Lake.png
 Logo.png
 Logo_MBARI.png
@@ -62,6 +69,8 @@ Logo_light.png
 Logo_oceanshot.png
 Logo_uwa_square.png
 Map.jpg
+Meal.jpg
+MealThumb.png
 Mollan Room.png
 Mollan.png
 OISTLocation.png
